@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables> 
+    </EnvironmentVariables> 
+  </RunConfiguration>
+  <TestRunParameters>
+    <!--Variables for TC Executions-->
+    <Parameter name="GI_Env_Variable" value="local"/><!-- local/remote -->
+    <Parameter name="GI_Env_SkipTests" value="false"/><!-- true/false -->
+    <!--Variables for Driver Configuration-->
+    <Parameter name="GI_DataDriverName" value="AutomationDriver.xlsx"/><!---->
+    <Parameter name="GI_DataDriverSheet" value="TestCases"/><!--  -->
+    <!--Variables for Report Configuration-->
+    <Parameter name="GI_ReportLocation" value="\\memfp02\share\Any\4th_Automation\Results\ViaOne\GlobalIntake\"/>
+    <Parameter name="GI_ReportName" value="Smartly Execution Report"/><!-- Report Name for Extent Reports -->
+    <Parameter name="GI_ProjectName" value="Smartly Automation Regression"/><!-- Project Name -->
+    <Parameter name="GI_TestEnvironment" value="UAT"/><!-- UAT/QA1/QA2/Demo -->
+    <Parameter name="GI_BrowserName" value="Chrome"/><!-- Chrome/IE -->
+    <!--Variables for Send Log to DevOps-->
+    <Parameter name="GI_DevOps_Report" value="true"/>
+    <Parameter name="GI_DevOps_RenameReport" value="false"/>
+    <!--Variables for Flat Files -->
+    <Parameter name="GI_FlatFileDir" value="R:\u\dist\intake\mgaftp\"/>
+    <Parameter name="GI_FailDir" value="\\memfp02\share\Any\4th_Automation\Results\ViaOne\Failed TC\"/>
+    <!--Variables for Phone Escalation-->
+    <Parameter name="GI_PhoneEscalation" value="true"/>
+    
+  </TestRunParameters>
+</RunSettings> 
