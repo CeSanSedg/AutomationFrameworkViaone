@@ -16,7 +16,7 @@
     <Parameter name="GI_ReportLocation" value="C:\AutomationProjects\Report\"/>
     <Parameter name="GI_ReportName" value="Viaone Execution Report"/><!-- Report Name for Extent Reports -->
     <Parameter name="GI_ProjectName" value="Viaone Automation Regression"/><!-- Project Name -->
-    <Parameter name="GI_TestEnvironment" value="VIAONEUAT"/><!-- UAT/QA1/QA2/Demo -->
+    <Parameter name="GI_TestEnvironment" value="VIAONEQA"/><!-- UAT/QA1/QA2/Demo -->
     <Parameter name="GI_BrowserName" value="Chrome"/><!-- Chrome/IE -->
         
   </TestRunParameters>
