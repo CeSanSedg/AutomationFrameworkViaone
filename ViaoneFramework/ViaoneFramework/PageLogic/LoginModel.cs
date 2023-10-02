@@ -24,5 +24,7 @@ namespace ViaoneFramework.PageLogic
         public static string strSearchResults = "//div[contains(@id,\"claimList_DetailContainer\")]//table//tbody//tr[1]//td//table//tbody//tr//td[4]";
 
 
+
+
     }
 }
